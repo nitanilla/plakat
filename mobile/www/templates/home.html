@@ -1,0 +1,29 @@
+<ion-view title="Plakat">
+  <ion-content>
+
+    <div class="list card" ng-repeat="poster in posters">
+        
+	  <div class="item item-avatar">
+	    <img src="{{}}">
+	    <h2>{{poster.title}}</h2>
+	    <p>{{poster.date_event}}</p>
+	  </div>
+
+	  <div class="item item-body">
+	    <img class="full-image" src="img/{{poster.ref_imagem}}">
+	    <p>
+	      {{poster.description}}
+	    </p>
+	  </div>
+
+	  <div class="item tabs tabs-secondary tabs-icon-left">
+	    <a class="tab-item" href="#">
+	      <i class="icon ion-thumbsup"></i>
+	      Curtir
+	    </a>
+	  </div>
+	
+    </div>
+
+  </ion-content>
+</ion-view>

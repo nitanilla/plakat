@@ -1,0 +1,3 @@
+INDEX VERSION 1.126+/home/xanwerneck/development/prajaa/mobile/www/.metadata/.plugins/org.eclipse.jdt.core
+1937912063.index
+2887843293.index
